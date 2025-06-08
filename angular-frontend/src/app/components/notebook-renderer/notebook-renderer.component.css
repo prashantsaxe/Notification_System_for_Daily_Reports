@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notebook-container {
+    @apply p-4 bg-white rounded-lg shadow-md;
+}
+
+.notebook-title {
+    @apply text-2xl font-bold mb-4;
+}
+
+.cell {
+    @apply p-2 border border-gray-300 rounded-md mb-2;
+}
+
+.cell-input {
+    @apply w-full p-2 border border-gray-300 rounded-md;
+}
+
+.cell-output {
+    @apply p-2 bg-gray-100 border border-gray-300 rounded-md;
+}
